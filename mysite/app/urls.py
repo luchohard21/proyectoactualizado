@@ -11,7 +11,7 @@ urlpatterns = [
     path('servicios/', servicios, name="servicios"),
     path('cita/', cita, name="cita"),
     path('contactanos/', contactanos, name="contactanos"),
-    path('opinion/', opinion, name="opinion"),
+    path('opinion/', opinion, name="opinion")
 
 
 

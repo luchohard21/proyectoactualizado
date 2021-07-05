@@ -1,5 +1,5 @@
 from django.db import models
-from django.db.models.fields import CharField
+from django.db.models.fields import CharField, DateField, DateTimeField
 
 # Create your models here.
 #creacion tabla de clientes de urbanstyle
