@@ -64,3 +64,7 @@ class Detalle_servicio_empleado(models.Model):
 class Especialidad(models.Model):
     nombre_especialidad = models.CharField(max_length=20)
 
+
+class Post(models.Model):
+    title= models.CharField(max_length=300, unique=True)
+    content= models.TextField()
